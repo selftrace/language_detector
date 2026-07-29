@@ -16,10 +16,10 @@ X_train = vectorizer.fit_transform(X_train)
 X_test = vectorizer.transform(X_test)
 
 models = {
-    "Logistic Regression": LogisticRegression(max_iter=1000),
-    "Naive Bayes": MultinomialNB(),
+    "Logistic regression": LogisticRegression(max_iter=1000),
+    "Naive bayes": MultinomialNB(),
     "Linear SVM": LinearSVC(),
-    "Random Forest": RandomForestClassifier(random_state=42)
+    "Random forest": RandomForestClassifier(random_state=42)
 }
 
 
@@ -47,7 +47,7 @@ plt.bar(
 )
 
 plt.ylabel("Accuracy")
-plt.title("Model Comparison")
+plt.title("Model comparison")
 
 plt.xticks(rotation=15)
 
