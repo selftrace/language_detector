@@ -7,4 +7,4 @@ The dataset has two main columns:
 - `Text` → the actual sentence
 - `Language` → what language the sentence belongs to
 
-I shuffled the data, cleaned the text a bit, split it into train/test sets, and used it to compare different ML models.
+I shuffled the data, cleaned the text a bit, split it into train/test sets and used it to compare different ML models.
