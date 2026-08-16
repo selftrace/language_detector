@@ -1,4 +1,4 @@
-The dataset is from kaggle (Language Detection Dataset).
+The dataset is from kaggle (language Detection Dataset).
 
 Basically it gives the model a bunch of text examples where each sentence already has the correct language label. The model then tries to learn the patterns that make each language different.
 
