@@ -8,3 +8,8 @@ The dataset has two main columns:
 - `Language` → what language the sentence belongs to
 
 I shuffled the data, cleaned the text a bit, split it into train/test sets and used it to compare different ML models.
+
+
+updated, this version now follows:
+
+character-level NLP → TF-IDF → scikit-learn Pipelines → Linear SVM → stratified sampling → 5-fold CV → GridSearchCV → hyperparameter tuning → macro F1 → multiclass error analysis → robustness by text length → model persistence → inference
